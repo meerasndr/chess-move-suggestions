@@ -1,0 +1,27 @@
+/* #board{
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    margin: auto;
+}
+*/
+.box{   
+    border: 1px solid black;
+    height: 6.5rem;    
+} 
+#pagecontent{
+    margin: auto;
+}
+.coinImage{
+    height: 6rem;
+    display: block;
+    margin: .25rem auto;
+}
+.selectedBox{
+    border: 3px solid red;
+}
+.secondBox{
+    border: 3px solid green;
+}
+.pathHighlight{
+    border: 3px solid yellow;
+}
